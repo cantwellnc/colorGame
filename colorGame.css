@@ -1,0 +1,86 @@
+body{
+	background-color: #232323;
+	margin:0;
+	font-family:"Montserrat", "Avenir";
+}
+
+h1{
+	color:white;
+	text-align: center;
+	background: steelblue; 
+	font-weight: normal;
+	text-transform:uppercase;
+	line-height:1.1;
+	padding: 20px 0;
+	margin:0;
+}
+
+#colorDisplay{
+	font-size: 200%; 
+}
+
+.square{
+	width: 30%;
+	background: purple;
+	padding-bottom:30%;
+	float:left; 
+	margin:1.66%;
+	border-radius: 20%;
+	transition: all .3s;
+	/*just to add additional support for more browsers*/
+	-webkit-transition: all .3s;
+	-moz-transition:all .3s;
+}
+
+#container{
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+#stripe {
+	background: white;
+	height:30px;
+	text-align: center; 
+	color:black;
+}
+
+.selected{
+	color: white;
+	background:steelblue;
+}
+
+#message{
+	/*creates space within this span*/
+	display: inline-block;
+	width:20%;
+	font-weight:700;
+}
+
+button {
+	border:none;
+	background:none;
+	text-transform: uppercase; 
+	height:100%;
+	font-weight: 700; 
+	color:steelblue;
+	letter-spacing: 1px; 
+	/*inherit fontsize*/
+	font-size: inherit; 
+	/*to get rid of blue outline on buttons in browser*/
+	outline:none;
+	transition: all .3s;
+	/*just to add additional support for more browsers*/
+	-webkit-transition: all .3s;
+	-moz-transition:all .3s;
+}
+
+button:hover {
+	color: white;
+	background:steelblue;
+
+}
+
+
+
+
+
